@@ -1,0 +1,7 @@
+simple_scheduler:
+ ros__parameters:
+  # 0 - Non preemptive fixed priority
+  # 1 - Non preemptive earliest deadline first
+  # 2 - Preemptive fixed priority
+  # 3 - Preemptive earliest deadline firsts
+  scheduling_policy: 2
